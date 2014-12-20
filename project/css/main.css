@@ -1,0 +1,106 @@
+*{
+	margin: 0em;
+	padding: 0em;
+}
+
+h1{
+	font: bold 2em Tahoma;
+}
+
+header,section,nav{
+	display: block;
+}
+
+html,body {
+    text-align: center;
+}
+
+#wrapper{
+	border: .1em solid black;
+	max-width: 95%;
+	margin: 1em;
+	text-align:left;
+}
+#top{
+	background: lightblue;
+	text-align: center;
+	border: .1em solid black;
+}
+
+#left_nav{
+    border: .1em solid black;
+	background: lightgray;
+	float:left;
+	width:20%;
+	height: 500px;
+}
+
+#left_nav li{
+    float: none;
+	list-style: none;
+	margin: .5em;
+	padding: .5em;
+}
+
+#left_nav li a{
+	text-decoration: none;
+	color: brown;
+}
+
+#main_part{
+	border: .1em solid black;
+	overflow: scroll;
+	height: 500px;
+	text-align: center;
+}
+
+#results,#results_text{
+    display:inline-block;
+	padding: 1em;
+	margin: auto; 
+}
+
+
+#results tr, #results td, #results_text tr, #results_text td {
+        padding:.2em;
+    }
+	
+#results th, #results_text th{
+	font: bold 1em Tahoma;
+	padding-bottom:.5em;
+	text-align:center;
+}
+
+#results tr:nth-child(even), #results_text tr:nth-child(even){
+    background-color:lightgray;
+}
+
+#results tr:nth-child(odd), #results_text tr:nth-child(odd){
+    background-color:#9a9a9a;
+}
+
+.selected{
+  background-color:yellow;
+}
+
+.selected_search{
+  background-color:orange;
+}
+
+#search_div{
+	font: normal 1em Tahoma;
+	text-align: center;
+	padding-top: .5em;
+}
+
+#search_area{
+    display: inline-block;
+	margin-right: 1em;
+}
+
+img{
+    position: relative;
+    top: .8em;
+}
+
+	  

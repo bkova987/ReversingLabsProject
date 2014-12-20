@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>ReversingLabs mini project</title>
+<link href="css/main.css" rel="stylesheet"/>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header id="top">
+<h1>Hex file reader</h1>
+</header>
+<nav id="left_nav">
+<ul id="file_list">
+</ul>
+</nav>
+<section id="main_part">
+<div id="search_div">
+<div id="search_area">
+Insert search item: <input type="text" id="search_item" name="search_item_name" />
+<input type="radio" id="search_type_hex" name="search_type_name" value="hex" checked>Hex
+<input type="radio" id="search_type_text" name="search_type_name" value="textv">Text 
+</div>
+Scroll to other pages:
+<img id="go_up" src="images/up_arrow.png" alt="up"/>
+<img id="go_down" src="images/down_arrow.png" alt="down" />
+</div>
+<table id="results" class="center">
+</table>
+<table id="results_text" class="center">
+</table>
+<br/><br/>
+</section>
+</div>
+</body>
+</html>
